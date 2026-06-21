@@ -1,0 +1,163 @@
+.checkout-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 32px;
+}
+
+.checkout-wrapper {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+
+.checkout-form {
+  flex: 2;
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.checkout-form h3 {
+  font-family: 'Inter', sans-serif;
+  text-transform: none;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #5c564a;
+  margin-bottom: 4px;
+}
+
+.checkout-input {
+  padding: 13px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+  background-color: var(--paper);
+}
+
+.checkout-input:focus {
+  outline: none;
+  border-color: var(--ink);
+}
+
+.metode-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 14px;
+}
+
+.metode-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.bayar-btn {
+  margin-top: 18px;
+  padding: 16px;
+  background-color: var(--ink);
+  color: var(--paper);
+  border: none;
+  border-radius: 4px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 15px;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+.bayar-btn:hover:not(:disabled) {
+  background-color: var(--rust);
+}
+
+.bayar-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.ringkasan-box {
+  flex: 1;
+  min-width: 260px;
+  padding: 22px;
+  background-color: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  align-self: start;
+}
+
+.ringkasan-box h3 {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #5c564a;
+  margin-bottom: 12px;
+}
+
+.ringkasan-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  margin: 10px 0;
+  color: #5c564a;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.ringkasan-garis {
+  border-top: 1px dashed var(--line);
+  margin: 14px 0;
+}
+
+.ringkasan-total {
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--ink);
+}
+
+.sukses-box {
+  text-align: center;
+  padding: 70px 20px;
+}
+
+.sukses-icon {
+  font-size: 48px;
+  margin-bottom: 8px;
+}
+
+.sukses-box h1 {
+  margin-bottom: 12px;
+}
+
+.sukses-box p {
+  color: #5c564a;
+  max-width: 420px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.belanja-lagi-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 13px 26px;
+  background-color: var(--ink);
+  color: var(--paper);
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: background-color 0.2s;
+}
+
+.belanja-lagi-btn:hover {
+  background-color: var(--rust);
+}

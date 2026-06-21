@@ -1,0 +1,45 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 32px;
+  background-color: var(--ink);
+}
+
+.navbar-logo {
+  font-family: 'Anton', sans-serif;
+  font-size: 22px;
+  color: var(--paper);
+  text-decoration: none;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.navbar-cart {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--paper);
+  text-decoration: none;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 8px 14px;
+  border: 1px solid #3a3733;
+  border-radius: 4px;
+  transition: border-color 0.2s, background-color 0.2s;
+}
+
+.navbar-cart:hover {
+  border-color: var(--volt);
+  background-color: #232220;
+}
+
+.navbar-badge {
+  background-color: var(--volt);
+  color: var(--ink);
+  border-radius: 3px;
+  padding: 2px 7px;
+  font-size: 12px;
+  font-weight: 700;
+}

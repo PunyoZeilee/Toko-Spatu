@@ -1,0 +1,159 @@
+.keranjang-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 32px;
+}
+
+.keranjang-kosong {
+  color: #8a8275;
+  margin: 20px 0 24px;
+}
+
+.belanja-btn {
+  display: inline-block;
+  padding: 13px 26px;
+  background-color: var(--ink);
+  color: var(--paper);
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: background-color 0.2s;
+}
+
+.belanja-btn:hover {
+  background-color: var(--rust);
+}
+
+.keranjang-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 24px;
+}
+
+.keranjang-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+  background-color: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  flex-wrap: wrap;
+}
+
+.keranjang-img {
+  width: 76px;
+  height: 76px;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 1px solid var(--line);
+}
+
+.keranjang-info {
+  flex: 1;
+  min-width: 150px;
+}
+
+.keranjang-nama {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.keranjang-ukuran {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  color: #8a8275;
+  margin-bottom: 4px;
+}
+
+.keranjang-harga {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  color: #5c564a;
+}
+
+.keranjang-jumlah-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.keranjang-jumlah-btn {
+  width: 28px;
+  height: 28px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background-color: var(--paper);
+}
+
+.keranjang-jumlah-btn:hover {
+  border-color: var(--ink);
+}
+
+.keranjang-jumlah-text {
+  font-family: 'JetBrains Mono', monospace;
+  min-width: 18px;
+  text-align: center;
+}
+
+.keranjang-subtotal {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 700;
+  min-width: 120px;
+  text-align: right;
+}
+
+.keranjang-hapus {
+  padding: 8px 14px;
+  border: 1px solid var(--rust);
+  color: var(--rust);
+  background-color: var(--paper);
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.keranjang-hapus:hover {
+  background-color: var(--rust);
+  color: var(--paper);
+}
+
+.keranjang-ringkasan {
+  margin-top: 28px;
+  padding-top: 24px;
+  border-top: 2px dashed var(--line);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.keranjang-total-text {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 18px;
+}
+
+.checkout-btn {
+  padding: 15px 30px;
+  background-color: var(--ink);
+  color: var(--paper);
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: background-color 0.2s;
+}
+
+.checkout-btn:hover {
+  background-color: var(--rust);
+}

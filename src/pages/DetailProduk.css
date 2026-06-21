@@ -1,0 +1,166 @@
+.detail-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+.detail-back {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  background: none;
+  border: 1px solid var(--line);
+  padding: 8px 16px;
+  border-radius: 4px;
+  margin-bottom: 24px;
+  color: var(--ink);
+  transition: border-color 0.2s;
+}
+
+.detail-back:hover {
+  border-color: var(--ink);
+}
+
+.detail-wrapper {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.detail-img-box {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.detail-img {
+  width: 400px;
+  max-width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 1px solid var(--line);
+}
+
+.detail-tag {
+  position: absolute;
+  top: -10px;
+  right: 14px;
+  background-color: var(--paper);
+  border: 1.5px dashed var(--ink);
+  border-radius: 3px;
+  padding: 5px 10px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  font-weight: 600;
+  transform: rotate(-4deg);
+  box-shadow: 1px 2px 0 var(--line);
+}
+
+.detail-info {
+  flex: 1;
+  min-width: 280px;
+}
+
+.detail-merk {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  color: var(--rust);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.detail-nama {
+  font-size: 30px;
+  margin: 8px 0 12px;
+  color: var(--ink);
+}
+
+.detail-harga {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.detail-deskripsi {
+  margin-top: 14px;
+  color: #5c564a;
+  line-height: 1.7;
+}
+
+.detail-stok {
+  margin-top: 8px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  color: #8a8275;
+}
+
+.detail-label {
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-top: 22px;
+  margin-bottom: 10px;
+}
+
+.ukuran-wrapper {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.ukuran-btn {
+  width: 46px;
+  height: 42px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background-color: var(--paper);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 14px;
+  transition: all 0.15s;
+}
+
+.ukuran-btn:hover {
+  border-color: var(--ink);
+}
+
+.ukuran-btn.aktif {
+  background-color: var(--ink);
+  color: var(--paper);
+  border-color: var(--ink);
+}
+
+.jumlah-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.jumlah-btn {
+  width: 34px;
+  height: 34px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background-color: var(--paper);
+  font-size: 16px;
+}
+
+.jumlah-btn:hover {
+  border-color: var(--ink);
+}
+
+.jumlah-text {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 16px;
+  min-width: 20px;
+  text-align: center;
+}
+
+
+
+.pesan-info {
+  margin-top: 14px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  color: var(--rust);
+}
